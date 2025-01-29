@@ -1,6 +1,6 @@
 {
-  inputs.nixpkgs.url = github:NixOS/nixpkgs;
-  inputs.sops-nix.url = github:Mic92/sops-nix;
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs";
+  inputs.sops-nix.url = "github:Mic92/sops-nix";
   outputs = { self, nixpkgs, sops-nix }: 
   let
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
